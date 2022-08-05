@@ -62,8 +62,14 @@ width: 25%;
 
 }
 .manual-btn:hover{
-    background-color: #fff;
+    background-color: rgb(56, 9, 101);
 }
 #radio1:checked ~ .first{
-
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -50%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
 }
