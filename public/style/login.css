@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0px;
+}
+
+body {
+    background-color: #231b2e;
 }
 
 header {
@@ -19,6 +25,29 @@ header>.img-fiat {
     margin-right: auto
 }
 
-body {
+main>.container {
+    display: flex;
+    flex-direction: row;
     background-color: #231b2e;
+    width: 700px;
+    height: auto;
+    min-height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 40px;
+    max-width: 100%;
+    margin: 0;
+    box-shadow: 0 0 1rem black;
+}
+
+main>.container>.banner {
+    margin: 55px;
+
+}
+
+main>.container>.box-login {
+    font-family: 'Roboto', sans-serif;
+    
 }
