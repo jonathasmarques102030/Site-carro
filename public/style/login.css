@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #18131f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 0 0 1rem black;
+}
+
+header>.img-fiat {
+    padding: 0%;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body {
+    background-color: #231b2e;
+}

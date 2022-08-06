@@ -10,6 +10,7 @@ header {
     width: 100%;
     height: 100%;
     display: flex;
+    
 }
 
 header>.img-fiat {
@@ -51,7 +52,7 @@ width: 25%;
 
 }
 .manual-btn {
-    border: 3px solid #fff;
+    border: 3px solid rgb(254, 136, 254);
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
@@ -62,14 +63,14 @@ width: 25%;
 
 }
 .manual-btn:hover{
-    background-color: rgb(56, 9, 101);
+    background-color: rgb(170, 61, 174);
 }
-#radio1:checked ~ .first{
+#radio1:checked ~ .fisrt{
     margin-left: 0;
 }
-#radio2:checked ~ .first{
-    margin-left: -50%;
+#radio2:checked ~ .fisrt{
+    margin-left: 25% ;
 }
 #radio3:checked ~ .first{
-    margin-left: -50%;
+    margin-left: 25% ;
 }
