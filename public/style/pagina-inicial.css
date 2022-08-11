@@ -65,12 +65,12 @@ width: 25%;
 .manual-btn:hover{
     background-color: rgb(170, 61, 174);
 }
-#radio1:checked ~ .fisrt{
+#radio1:checked ~ .slider>.slides>.slide1{
     margin-left: 0;
 }
-#radio2:checked ~ .fisrt{
+#radio2:checked ~ .slider>.slides>.slide2{
     margin-left: 25% ;
 }
-#radio3:checked ~ .first{
+#radio3:checked ~ .slider>.slides>.slide3{
     margin-left: 25% ;
 }
