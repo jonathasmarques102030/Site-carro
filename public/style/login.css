@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
 }
 
 body {
@@ -28,7 +33,7 @@ header>.img-fiat {
 main>.container {
     display: flex;
     flex-direction: row;
-    background-color: #231b2e;
+    background-color: rgba(35, 27, 46);
     width: 700px;
     height: auto;
     min-height: 400px;
@@ -51,3 +56,81 @@ main>.container>.box-login {
     font-family: 'Roboto', sans-serif;
     
 }
+
+#container .box-login {
+    width: 320px;
+    height: 520px;
+    border-radius: 10px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .box-login .box {
+        margin: 10px 0;
+        width: 80%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    p {
+        cursor: pointer;
+        font-weight: 600;
+        color: slateblue;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        color: #fff;
+        padding: 0px 0px 35px 15px;
+    }
+
+    h2 {
+        font-family: "Roboto";
+        font-size: 3.4em;
+        color: white;
+        font-weight: 800;
+        margin: 0;
+        width: 400px;
+        padding: 15px 0px 35px 15px;
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        background: #514869;
+        color: #f0ffffde;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+::-webkit-input-placeholder {
+    color: #0000005d;
+    font-family: "Roboto", monospace;
+  }
+  
+    button {
+        width: 65%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #18131f;
+        background: #00ff88;
+        cursor: pointer;
+        box-shadow: 0 10px 40px -12px #00ff8052;
+    }

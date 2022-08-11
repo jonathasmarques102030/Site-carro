@@ -13,6 +13,8 @@ header {
     
 }
 
+
+
 header>.img-fiat {
     padding: 0%;
     margin: 8px;
@@ -22,55 +24,58 @@ header>.img-fiat {
     margin-right: auto
 }
 .slider {
-   margin: 40px ;
-   width:1200px ;
-   height:400px ;
-   overflow: hidden;
-
+    display: block;
+    height: 293px;
+    width: 2000px;
+    margin: 0%;
+    margin-top: 20px;
+    position: relative ;
+    padding: 0%;
 }
-.slides {
-    width: 400%;
-    height: 40px;
-    display: flex;
-    
-}
-.slides input {
-    display: none;
-}
-.slide {
-width: 25%;
-}
-.slide img {
-    width: 1200px;
-}
-.manuel-navigation {
+.slider li{
+    list-style: none;
     position: absolute;
-    width: 1200px;
-    margin-top: 240px ;
-    display: flex;
-    justify-content:center;
 
 }
-.manual-btn {
-    border: 3px solid rgb(254, 136, 254);
-    padding: 10px;
-    border-radius: 15px;
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+.slider input{
+    display: none;
+    color: rgb(163, 28, 205);
+}
+.slider label{
+    background-color: #000;
+    bottom: 10px;
     cursor: pointer;
-    transition: 1s;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
 }
-.manual-btn:not(:last-child){
-    margin-right: 10px;
+.slider li:nth-child(1) label {
+    left: 10px;
+}
 
+.slider li:nth-child(2) label {
+    left: 40px;
 }
-.manual-btn:hover{
-    background-color: rgb(170, 61, 174);
+
+.slider li:nth-child(3) label {
+    left: 70px;
 }
-#radio1:checked ~ .slider>.slides>.slide1{
-    margin-left: 0;
+.slider img {
+    opacity: 0;
+    visibility: hidden;
 }
-#radio2:checked ~ .slider>.slides>.slide2{
-    margin-left: 25% ;
-}
-#radio3:checked ~ .slider>.slides>.slide3{
-    margin-left: 25% ;
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    
 }
