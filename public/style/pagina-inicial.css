@@ -24,8 +24,6 @@ display: flex;
 
 }
 
-
-
 header>.img-fiat {
     padding: 0%;
     margin: 8px;
@@ -35,11 +33,14 @@ header>.img-fiat {
     margin-right: auto
 }
 
-header>.login {
+header>.img-login {
     color: white;
     font-family: "Roboto", sans-serif;
+    margin: 7px;
     
 }
+
+.c
 
 .slider {
     display: block;
